@@ -21,11 +21,11 @@
 #' \item{name}{Storm Name}
 #' \item{year,month,day}{Date of report}
 #' \item{hour}{Hour of report (0, 6, 12 or 18, in UTC)}
-#' \item{latitude,longtitude}{Location of storm center}
+#' \item{lat,long}{Location of storm center}
 #' \item{pressure}{Air pressure at the storm's center (in millibars)}
 #' \item{wind}{wtorm's maximum sustained wind speed (in knots)}
 #' \item{type}{Storm classification (Tropical Depression, Tropical Storm,
 #'   Hurricane, or Extratropical)}
 #' \item{seasday}{Day of the hurricane season (days since June 1)}
 #' }
-"stormtracks"
+"storms"
