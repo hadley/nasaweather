@@ -21,7 +21,9 @@ elev_num <- as.matrix(elev_raw)
 
 elev_cube <- tbl_cube(list(long = long, lat = lat), list(elev = elev_num))
 
-elev <- as.data.frame(elev_cube)
+elev <- as.data.frame(elev_cube) %>%
+  tbl_df() %>%
+  arrange(long, lat)
 save(elev, file = "data/elev.rdata")
 
 # Other variables ---------------------
@@ -52,5 +54,6 @@ metrics <- lapply(split(num, vars), function(x) array(unlist(x), dim = n))
 atmos_cube <- tbl_cube(dimensions, metrics)
 atmos <- as.data.frame(atmos_cube) %>%
   select(lat, long, year, month, surftemp, temp = temperature,
-    pressure, ozone, cloudlow, cloudmid, cloudhigh)
+    pressure, ozone, cloudlow, cloudmid, cloudhigh) %>%
+  tbl_df()
 save(atmos, file = "data/atmos.rdata")

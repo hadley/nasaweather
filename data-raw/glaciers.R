@@ -6,6 +6,7 @@ glaciers <- read.delim("data-raw/glaciers.txt", stringsAsFactors = FALSE)
 glaciers <- glaciers %>%
   select(id = glacier_num, name = glacier_name, lat, long = lon, area = total_area,
     country) %>%
-  mutate(name = str_replace_all(str_trim(name), "\\s+", " "))
+  mutate(name = str_replace_all(str_trim(name), "\\s+", " ")) %>%
+  tbl_df()
 
 save(glaciers, file = "data/glaciers.rdata")

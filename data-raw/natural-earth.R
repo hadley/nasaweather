@@ -22,5 +22,6 @@ plot(cropped)
 
 borders <- fortify(cropped, region = "iso_a2") %>%
   select(country = id, long, lat, group) %>%
-  mutate(group = as.integer(group))
+  mutate(group = as.integer(group)) %>%
+  group_by(group)
 save("borders", file = "data/borders.rdata")
