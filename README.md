@@ -6,6 +6,7 @@ This package contains four datasets:
 
 * `atmos`: atmospheric measurements
 * `elev`: elevations
+* `borders`: borders of countries in the region
 * `storms`: tracks of tropical storms
 * `glaciers`: locations of locations
 
