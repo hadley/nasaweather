@@ -1,0 +1,11 @@
+Package: nasaweather
+Title: Collection of datasets from the ASA 2006 data expo
+Version: 0.1
+Authors@R: 'Hadley Wickham <h.wickham@gmail.com> [aut,cre]'
+Description: This package contains tidied data from the ASA 2006 data expo,
+    as well as a number of useful other related data sets.
+Depends:
+    R (>= 3.1.0)
+License: GPL-3
+LazyData: true
+Url: http://stat-computing.org/dataexpo/2006/
