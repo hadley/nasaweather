@@ -21,7 +21,7 @@ storms
 }
 \description{
 Tropical cyclone tracks through the Atlantic Ocean, Caribbean Sea and Gulf
-of Mexico from 1995 to 2005. Only "named" storms, those which reached
+of Mexico from 1995 to 2000. Only "named" storms, those which reached
 tropical storm status or stronger, are included.
 }
 \details{
