@@ -1,7 +1,7 @@
 #' Storm tracks data
 #'
 #' Tropical cyclone tracks through the Atlantic Ocean, Caribbean Sea and Gulf
-#' of Mexico from 1995 to 2005. Only "named" storms, those which reached
+#' of Mexico from 1995 to 2000. Only "named" storms, those which reached
 #' tropical storm status or stronger, are included.
 #'
 #' The data originated from the National Hurricane Center's archive of
@@ -27,5 +27,7 @@
 #' \item{type}{Storm classification (Tropical Depression, Tropical Storm,
 #'   Hurricane, or Extratropical)}
 #' \item{seasday}{Day of the hurricane season (days since June 1)}
+#' \item{category}{Saffir–Simpson storm category (estimated from windspeed.
+#' -1 = Tropical Depression, 0 = Tropical Storm)}
 #' }
 "storms"
