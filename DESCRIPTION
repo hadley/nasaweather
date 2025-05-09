@@ -1,10 +1,10 @@
 Package: nasaweather
-Title: Collection of datasets from the ASA 2006 data expo
+Title: Collection of Datasets from the ASA 2006 Data Expo
 Version: 0.1.0.9000
 Authors@R: 
     person("Hadley", "Wickham", , "hadley@posit.co", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0003-4757-117X"))
-Description: This package contains tidied data from the ASA 2006 data
+Description: Tidied data from the ASA 2006 data
     expo, as well as a number of useful other related data sets.
 License: MIT + file LICENSE
 Depends:
