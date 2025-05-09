@@ -10,3 +10,4 @@ License: GPL-3
 LazyData: true
 URL: http://github.com/hadley/nasaweather,
     http://stat-computing.org/dataexpo/2006/
+RoxygenNote: 7.3.2

@@ -27,7 +27,7 @@
 #' \item{type}{Storm classification (Tropical Depression, Tropical Storm,
 #'   Hurricane, or Extratropical)}
 #' \item{seasday}{Day of the hurricane season (days since June 1)}
-#' \item{category}{Saffir–Simpson storm category (estimated from windspeed.
+#' \item{category}{Saffir-Simpson storm category (estimated from windspeed.
 #' -1 = Tropical Depression, 0 = Tropical Storm)}
 #' }
 "storms"
