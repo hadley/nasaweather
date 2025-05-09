@@ -6,7 +6,7 @@ Authors@R:
            comment = c(ORCID = "0000-0003-4757-117X"))
 Description: This package contains tidied data from the ASA 2006 data
     expo, as well as a number of useful other related data sets.
-License: GPL-3
+License: MIT + file LICENSE
 URL: http://github.com/hadley/nasaweather,
     http://stat-computing.org/dataexpo/2006/
 Depends:
