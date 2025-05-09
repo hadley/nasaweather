@@ -12,7 +12,7 @@
 }
 }
 \source{
-\url{http://stat-computing.org/dataexpo/2006/}
+\url{https://community.amstat.org/jointscsg-section/dataexpo/dataexpo2006}
 }
 \usage{
 elev

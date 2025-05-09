@@ -27,7 +27,7 @@
 #'   percent of the sky covered by clouds with cloud top pressure less than or
 #'   equal to 440 mb or roughly greater than 6.5 km.}
 #' }
-#' @source \url{http://stat-computing.org/dataexpo/2006/}
+#' @source \url{https://community.amstat.org/jointscsg-section/dataexpo/dataexpo2006}
 "atmos"
 
 #' Elevation.
@@ -40,6 +40,5 @@
 #'   grid from longitude 113.8W to 56.2W and from latitude 36.2N to 21.2S}
 #' \item{elev}{Height of location above reference plane (in m)}
 #' }
-#' @source \url{http://stat-computing.org/dataexpo/2006/}
+#' @source \url{https://community.amstat.org/jointscsg-section/dataexpo/dataexpo2006}
 "elev"
-

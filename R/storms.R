@@ -5,7 +5,7 @@
 #' tropical storm status or stronger, are included.
 #'
 #' The data originated from the National Hurricane Center's archive of
-#' Tropical Cyclone Reports (\url{http://www.nhc.noaa.gov/}). This dataset
+#' Tropical Cyclone Reports (\url{https://www.nhc.noaa.gov/}). This dataset
 #' was hand-scraped from best track tables in the individual tropical cyclone
 #' reports (PDF, HTML and Microsoft Word) by Jon Hobbs.
 #'
