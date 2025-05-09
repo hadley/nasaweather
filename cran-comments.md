@@ -1,5 +1,3 @@
-It passes R CMD check on windows, os x and linux (ubuntu):
+## Revdep checks
 
-* This is a new submission.
-
-* False positive in spell check: "ASA", "datasets"
+This was just an update to the DESCRIPTION so I didn't re-check revdeps.
