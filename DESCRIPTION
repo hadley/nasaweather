@@ -1,6 +1,6 @@
 Package: nasaweather
 Title: Collection of Datasets from the ASA 2006 Data Expo
-Version: 0.1.1
+Version: 0.1.1.9000
 Authors@R: 
     person("Hadley", "Wickham", , "hadley@posit.co", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0003-4757-117X"))
